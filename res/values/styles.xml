@@ -1,0 +1,67 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style name="WeListView" parent="@android:style/Widget.ListView">
+        <item name="android:listSelector">@drawable/button_transparent</item>
+        <item name="android:divider">@android:color/transparent</item>
+    </style>
+    <style name="ListItemTitle">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:textColor">@color/primary_text</item>
+    </style>
+    <style name="ListSubItemTitle">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/secondary_text</item>
+    </style>
+    
+    <style name="TransparentButton" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/button_transparent</item>
+    </style>
+    
+    <style name="PrimaryText">
+        <item name="android:textSize">@dimen/card_primary_text_size</item>
+        <item name="android:textColor">@color/primary_text</item>
+    </style>
+    
+    <style name="SecondaryText" parent="@android:style/TextAppearance.Small">
+        <item name="android:textSize">@dimen/card_secondary_text_size</item>
+        <item name="android:textColor">@color/secondary_text</item>
+    </style>
+    
+    <style name="PrimaryTextDark">
+        <item name="android:textSize">@dimen/card_primary_text_size</item>
+        <item name="android:textColor">@color/primary_text_black</item>
+    </style>
+    
+    <style name="SecondaryTextDark" parent="@android:style/TextAppearance.Small">
+        <item name="android:textSize">@dimen/card_secondary_text_size</item>
+        <item name="android:textColor">@color/secondary_text_black</item>
+    </style>
+    
+     <style name="PrimaryTextLime">
+        <item name="android:textSize">@dimen/card_primary_text_size</item>
+        <item name="android:textColor">@color/lime_dark</item>
+    </style>
+    
+     <style name="SecondaryTextLime" parent="@android:style/TextAppearance.Small">
+        <item name="android:textSize">@dimen/card_secondary_text_size</item>
+        <item name="android:textColor">@color/lime_dark</item>
+    </style>
+
+</resources>
